@@ -59,3 +59,6 @@ typings/
 
 # next.js build output
 .next
+
+ds2-tfjs/
+node-red-contrib-ds2-tfjs/

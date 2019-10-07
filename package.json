@@ -1,0 +1,24 @@
+{
+  "name": "ds2-tfjs-node-red",
+  "version": "1.0.0",
+  "description": "A Node-RED application to use ds2-tfjs and node-red-contrib-ds2-tfjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yhwang/ds2-tfjs-node-red.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yhwang/ds2-tfjs-node-red/issues"
+  },
+  "homepage": "https://github.com/yhwang/ds2-tfjs-node-red#readme",
+  "dependencies": {
+    "node-red": "^1.0.1",
+    "node-red-contrib-browser-utils": "0.0.9",
+    "red-contrib-ds2-tfjs": "file:node-red-contrib-ds2-tfjs"
+  }
+}
