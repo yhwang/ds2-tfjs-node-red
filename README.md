@@ -1,6 +1,14 @@
 # ds2-tfjs-node-red
 A Node-RED application to use ds2-tfjs and node-red-contrib-ds2-tfjs
 
+### Clone this repo
+
+Clone this repo and get into the directory
+```
+git clone https://github.com/yhwang/ds2-tfjs-node-red.git
+cd ds2-tfjs-node-red
+```
+
 ### Create Self Signed Certificate
 
 In order to access the microphone inside a browser, the Node-RED shall run
