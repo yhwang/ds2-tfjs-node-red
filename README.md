@@ -29,7 +29,7 @@ yet. They are linked as submodules for now. Here are the steps
 to clone these projects into corresponding directories.
 
 ```
-git submodule update --remote --rebase
+git submodule update --init
 ```
 
 ### Build ds2-tfjs submodule
