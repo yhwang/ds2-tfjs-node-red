@@ -20,6 +20,6 @@
   "dependencies": {
     "node-red": "^1.0.1",
     "node-red-contrib-browser-utils": "0.0.9",
-    "red-contrib-ds2-tfjs": "file:node-red-contrib-ds2-tfjs"
+    "red-contrib-ds2-tfjs": "git+https://github.com/yhwang/node-red-contrib-ds2-tfjs.git#08ff20e61b5477c33601423d50001686e6d523bb"
   }
 }

@@ -1,6 +1,0 @@
-[submodule "ds2-tfjs"]
-	path = ds2-tfjs
-	url = https://github.com/yhwang/ds2-tfjs.git
-[submodule "node-red-contrib-ds2-tfjs"]
-	path = node-red-contrib-ds2-tfjs
-	url = https://github.com/yhwang/node-red-contrib-ds2-tfjs.git

@@ -22,39 +22,6 @@ openssl req -new -sha256 -key privatekey.pem -out node-csr.pem
 openssl x509 -req -in node-csr.pem -signkey privatekey.pem -out certificate.pem
 ```
 
-### Sync submodule
-
-Some dependent modules are not published to npm repository
-yet. They are linked as submodules for now. Here are the steps
-to clone these projects into corresponding directories.
-
-```
-git submodule update --init
-```
-
-### Build ds2-tfjs submodule
-
-When submodules are downloaded, we need to initialize and build
-these submodules first. First of all, start with the `ds2-tfjs` module.
-Make sure that you are in the `ds2-tfjs-node-red` folder before
-you execute the following commands.
-```
-cd ds2-tfjs
-npm install
-npm run build
-```
-
-### Build node-red-contrib-ds2-tfjs submodule
-
-Then initialize and build the `node-red-contrib-ds2-tfjs`
-custom node. Make sure that you are in the `ds2-tfjs-node-red`
-folder before you execute the following commands.
-```
-cd node-red-contrib-ds2-tfjs
-npm install
-npm run build
-```
-
 ### Build this project
 
 Then initialize the `ds2-tfjs-node-red` project.
